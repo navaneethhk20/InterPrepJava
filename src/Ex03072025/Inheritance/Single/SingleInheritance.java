@@ -1,4 +1,4 @@
-package Ex03072025.Inheritance;
+package Ex03072025.Inheritance.Single;
 
 public class SingleInheritance {
     public static void youcanInheritthis(){
