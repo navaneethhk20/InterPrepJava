@@ -12,9 +12,9 @@ public class Lab11 {
         int first = 0, second = 1;
 
         if (n >= 1)
-            System.out.print(first + " ");
+            System.out.print(first+" " );
         if (n >= 2)
-            System.out.print(second + " ");
+            System.out.print(second +" ");
 
         for (int i = 3; i <= n; i++) {
             int next = first + second;
