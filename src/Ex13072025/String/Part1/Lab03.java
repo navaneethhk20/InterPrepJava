@@ -1,4 +1,4 @@
-package Ex13072025.String;
+package Ex13072025.String.Part1;
 
 import java.util.HashMap;
 import java.util.HashSet;
