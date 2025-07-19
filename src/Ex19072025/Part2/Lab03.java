@@ -12,13 +12,10 @@ public class Lab03 {
         for(char in: input.toCharArray()) {
             if (Character.isAlphabetic(in)) {
                 alphabets.append(in);
-                System.out.println();
             } else if (Character.isDigit(in)) {
-                System.out.println();
                 numberic.append(in);
             } else {
                 character.append(in);
-                System.out.println();
             }
         }
 
