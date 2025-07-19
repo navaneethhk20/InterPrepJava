@@ -15,8 +15,6 @@ public class Lab15 {
                 chars.add(ch);
             }
         }
-
-
         Collections.reverse(chars);
 
         int index = 0;
@@ -26,7 +24,6 @@ public class Lab15 {
             }
         }
         System.out.println(result);
-
     }
 
         public static void main (String[]args){
