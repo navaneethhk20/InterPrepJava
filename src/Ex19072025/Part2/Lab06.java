@@ -7,6 +7,7 @@ public class Lab06 {
         String input ="tomorrow";
         //output ="t3m3223w"
         //output ="t$m$$$$w"
+        //output="t$m$rr$w"
 
         HashMap<Character, Integer> hashMap = new HashMap<>();
         for (char ch: input.toCharArray()){
@@ -17,6 +18,7 @@ public class Lab06 {
             char currentchar = input.charAt(i);
             int frequency = hashMap.get(currentchar);
             if(frequency==1){
+                // || input.charAt(i)=='r'){
                 sb.append(currentchar);
             }else {
                 //sb.append(frequency);
