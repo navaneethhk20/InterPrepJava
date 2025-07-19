@@ -1,4 +1,4 @@
-package Ex19072025.Part3;
+package Ex19072025And20072025.String.Part3;
 
 public class Lab03 {
     public static void main(String[] args) {
