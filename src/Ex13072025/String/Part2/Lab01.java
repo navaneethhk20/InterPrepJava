@@ -26,9 +26,6 @@ public class Lab01 {
             }
         }
 
-        System.out.println("Non-repeating characters: " + nonRepeating);
-        System.out.println("Number of non-repeating characters: " + nonRepeating.size());
-
 // Step 3: Find the middle non-repeating character
         if (nonRepeating.size() > 0) {
             int middleIndex = nonRepeating.size() / 2;
