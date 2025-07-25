@@ -1,4 +1,4 @@
-package Ex252627072025.Part1;
+package Ex252627072025.Part1_String;
 
 public class Lab17 {
     public static void main(String[] args) {

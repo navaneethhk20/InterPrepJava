@@ -1,8 +1,6 @@
-package Ex252627072025.Part1;
+package Ex252627072025.Part1_String;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class Lab05 {
     //count the no of characters that occur repeatedly

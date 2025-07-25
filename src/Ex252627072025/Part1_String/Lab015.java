@@ -1,4 +1,4 @@
-package Ex252627072025.Part1;
+package Ex252627072025.Part1_String;
 
 import java.util.ArrayList;
 import java.util.HashMap;

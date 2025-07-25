@@ -1,4 +1,4 @@
-package Ex252627072025.Part1;
+package Ex252627072025.Part1_String;
 
 public class Lab02 {
     //write a program to reverse any string with sb
