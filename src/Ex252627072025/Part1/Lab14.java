@@ -16,10 +16,12 @@ public class Lab14 {
         for(int i=0;i<=input.length()-1;i++){
             char currentchar = input.charAt(i);
             int frequency = hashmap.get(currentchar);
-            if(frequency==1){
+            if(frequency==1 || frequency ==2){
                 sb.append(currentchar);
             }else {
-                sb.append(frequency);
+               // sb.append(frequency); t3m3223w
+               // sb.append("$"); t$m$$$$w
+                sb.append("$"); // || frequency ==2 ----- t$m$rr$w
             }
         }
         System.out.println(sb.toString());
