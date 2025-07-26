@@ -13,7 +13,7 @@ public class Lab05 {
         }
 
         for(Map.Entry<Integer, Integer>entry: hashMap.entrySet()) {
-            if (entry.getValue() == 1) {
+            if (entry.getValue() > 1) {
                 System.out.print(entry.getKey()+ " ");
             }
         }
@@ -21,7 +21,7 @@ public class Lab05 {
 
 
         for(int num : arr) {
-            if(hashMap.get(num) == 1) {
+            if(hashMap.get(num) > 1) {
                 System.out.println(num);
                 break;
             }

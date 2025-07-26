@@ -1,7 +1,7 @@
 package Ex252627072025.Part2_Arrays;
 
-public class Lab08 {
+public class Lab11 {
     public static void main(String[] args) {
-        //swap the arrays keeping middle constant
+        //swap two array values
     }
 }
