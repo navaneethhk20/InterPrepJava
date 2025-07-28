@@ -10,7 +10,6 @@ public class Lab07 {
 
         HashMap<Character, Integer> hashmap = new HashMap<>();
         for (char ch : input.toCharArray()) {
-
                 hashmap.put(ch, hashmap.getOrDefault(ch, 0) + 1);
 
         }
