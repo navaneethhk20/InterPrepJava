@@ -10,8 +10,6 @@ char[]  chars = name.toCharArray();
         chars[0] = chars[1];
         chars[1] = temp;
 
-
-
         String result = new String(chars);
         System.out.println(result);
 
