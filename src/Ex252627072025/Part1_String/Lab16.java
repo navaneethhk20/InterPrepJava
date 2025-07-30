@@ -8,8 +8,8 @@ public class Lab16 {
         st =st.toLowerCase();
         st2= st2.toLowerCase();
 
-        if(st.length() == st2.length()){
-            return true;
+        if(st.length() != st2.length()){
+            return false;
         }
 
         char [] arr1 =st.toCharArray();
@@ -17,13 +17,13 @@ public class Lab16 {
 
         Arrays.sort(arr1);
         Arrays.sort(arr2);
-        Arrays.equals(arr1,arr2);
+       return Arrays.equals(arr1,arr2);
 
-        return true;
+
     }
     public static void main(String[] args) {
         String str1 ="silent";
-        String str2 ="listen";
+        String str2 ="iisten";
         System.out.println(checkAnagram(str1,str2));
 
     }
