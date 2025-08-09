@@ -11,6 +11,7 @@ public class L1 {
             System.out.println("leap year");
         }else {
             System.out.println("not a leap year");
+
         }
     }
 }
