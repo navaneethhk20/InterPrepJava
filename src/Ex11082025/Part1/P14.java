@@ -1,6 +1,7 @@
 package Ex11082025.Part1;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 public class P14 {
@@ -10,17 +11,21 @@ public class P14 {
         int index=0;
 
         ArrayList<Character> list = new ArrayList<>();
-        for(char ch: input.toCharArray()){
-            list.add(ch);
+        for(char ch: input.toCharArray()) {
+            if (ch != ' ') {
+                list.add(ch);
+            }
         }
 
         Collections.reverse(list);
 
         for(int i=0;i<=input.length()-1;i++){
-          //  if(cha[i]==){
-
+            if(cha[i]!=' '){
+                cha[i]=list.get(index++);
+            }
 
         }
+        System.out.println(cha);
 
     }
 }
