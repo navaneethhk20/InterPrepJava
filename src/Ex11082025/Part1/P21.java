@@ -19,5 +19,4 @@ public class P21 {
         }
         System.out.println(Arrays.toString(arr));
     }
-
 }
