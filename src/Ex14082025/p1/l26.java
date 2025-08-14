@@ -6,5 +6,6 @@ public class l26 {
         StringBuilder sb = new StringBuilder(input);
         String rev= sb.reverse().toString();
         System.out.println(rev);
+
     }
 }
