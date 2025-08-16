@@ -16,7 +16,7 @@ public class p10 {
         ArrayList<Character> list= new ArrayList<>();
         for(char ch: input.toCharArray()) {
             if (ch != ' ') {
-                if (hashMap.get(ch) > 1 && !list.contains(ch)) {
+                if (hashMap.get(ch) == 1 && !list.contains(ch)) {
                     System.out.print(ch + " ");
                     list.add(ch);
                 }
