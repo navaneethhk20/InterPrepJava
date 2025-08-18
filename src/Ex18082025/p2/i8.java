@@ -15,5 +15,4 @@ public class i8 {
         int diff= exp-act;
         System.out.println(diff);
     }
-
 }
