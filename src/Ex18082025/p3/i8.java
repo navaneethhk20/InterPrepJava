@@ -13,7 +13,6 @@ public class i8 {
             rev=rev*10+rem;
             num=num/10;
         }
-        System.out.println(rev)
-        ;
+        System.out.println(rev);
     }
 }
