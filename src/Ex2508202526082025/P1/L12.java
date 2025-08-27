@@ -18,7 +18,6 @@ public class L12 {
                 min=arr[j];
             }
         }
-
         System.out.println(max-min);
     }
 }
