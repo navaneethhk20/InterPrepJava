@@ -19,6 +19,7 @@ public class L12 {
             }
         }
 
+
         System.out.println(max-min);
     }
 }
