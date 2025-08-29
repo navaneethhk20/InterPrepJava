@@ -6,7 +6,8 @@ public class Lab12 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number");
         int num= sc.nextInt();
-        int first=0; int second =1;
+        int first=0;
+        int second =1;
         if(num>=1){
             System.out.print(first+" ");
         }
