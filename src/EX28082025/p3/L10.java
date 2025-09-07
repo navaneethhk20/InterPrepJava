@@ -15,5 +15,6 @@ public class L10 {
             list.add(num);
         }
         System.out.println(list);
+
     }
 }
