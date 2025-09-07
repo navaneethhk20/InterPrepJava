@@ -16,5 +16,6 @@ public class L10 {
         }
         System.out.println(list);
 
+
     }
 }
