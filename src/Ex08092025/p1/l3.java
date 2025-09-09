@@ -12,7 +12,7 @@ public class l3 {
        }
        ArrayList<Character> list= new ArrayList<>();
        for(char ch:input.toCharArray()){
-           if(map.get(ch)>1 && !list.contains(ch)){
+           if(map.get(ch)==1 && !list.contains(ch)){
                list.add(ch);
            }
        }
