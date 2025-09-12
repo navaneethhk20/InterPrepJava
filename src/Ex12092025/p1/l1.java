@@ -7,6 +7,5 @@ public class l1 {
         int rev=0;
 
 
-
     }
 }
