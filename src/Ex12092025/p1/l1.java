@@ -6,5 +6,6 @@ public class l1 {
         int num=887;
         int rev=0;
 
+
     }
 }
