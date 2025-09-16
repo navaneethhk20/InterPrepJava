@@ -9,6 +9,5 @@ public class l1 {
         }
         System.out.println(rev);
 
-
     }
 }
