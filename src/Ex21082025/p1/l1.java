@@ -8,5 +8,6 @@ public class l1 {
             rev=rev+input.charAt(i);
         }
         System.out.println(rev);
+
     }
 }
