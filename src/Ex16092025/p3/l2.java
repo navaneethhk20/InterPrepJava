@@ -1,7 +1,7 @@
 package Ex16092025.p3;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
+
 
 public class l2 {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class l2 {
 
         ArrayList<Character> list = new ArrayList<>();
         for(char ch: input.toCharArray()){
-            if(hashmap.get(ch)>1&&!list.contains(ch)){
+            if(hashmap.get(ch)==1&&!list.contains(ch)){
                 list.add(ch);
             }
         }
