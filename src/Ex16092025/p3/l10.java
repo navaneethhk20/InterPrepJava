@@ -9,7 +9,6 @@ public class l10 {
         }
         for (int num:arr){
             System.out.print(product/num+" ");
-
         }
     }
 }
