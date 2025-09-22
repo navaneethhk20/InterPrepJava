@@ -11,6 +11,7 @@ public class Lab08 {
                 System.out.print("*");
             }
             System.out.println();
+
         }
     }
 }
