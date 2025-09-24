@@ -12,7 +12,6 @@ public class Lab08 {
             }
             System.out.println();
 
-
         }
     }
 }
