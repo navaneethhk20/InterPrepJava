@@ -14,10 +14,10 @@ public class l6 {
         for(int i=0;i<=input.length()-1;i++){
             char currentchar=input.charAt(i);
             int freqency= hashmap.get(currentchar);
-            if(freqency==1){
+            if(freqency==1 || freqency==2){
                 sb.append(currentchar);
             }else {
-                sb.append(freqency);
+                sb.append("$");
             }
 
         }
