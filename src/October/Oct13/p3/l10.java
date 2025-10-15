@@ -18,5 +18,6 @@ public class l10 {
         for(String str: hashMap.keySet()){
             System.out.print(str+" ");
         }
+
     }
 }
