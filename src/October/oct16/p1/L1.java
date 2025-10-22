@@ -5,10 +5,5 @@ public class L1 {
         String input="nithu hosuru";
 
 
-
-
-
-
-
     }
 }
