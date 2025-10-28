@@ -20,4 +20,6 @@ public class l9 {
         sc.close();
     }
 
+
+
 }
