@@ -1,4 +1,4 @@
-package November.p2;
+package November.Nov03.p1.p2;
 
 public class l6 {
     public static void main(String[] args) {
