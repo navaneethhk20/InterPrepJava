@@ -12,6 +12,7 @@ public class l8 {
     public static void permutation(String str, String result) {
         if (str.length() == 0) {
             count++;
+
             System.out.println(result);
             return;
         }
