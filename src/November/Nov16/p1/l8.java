@@ -4,7 +4,6 @@ public class l8 {
     static int count=0;
     public static void main(String[] args) {
         String input="abc";
-        System.out.println("permutation is "+input+":");
         permutation(input,"");
         System.out.println("total count is "+count);
 
