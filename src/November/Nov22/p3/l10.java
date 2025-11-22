@@ -22,6 +22,7 @@ public class l10 {
         for(char str: list){
             sb.append(str);
         }
+
         System.out.println(sb.toString());
 
     }
