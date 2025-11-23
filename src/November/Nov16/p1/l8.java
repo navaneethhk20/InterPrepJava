@@ -17,10 +17,6 @@ public class l8 {
             return;
         }
 
-
-
-
-
         for (int i = 0; i <= str.length() - 1; i++) {
             char ch = str.charAt(i);
             String remainning = str.substring(0, i) + str.substring(i + 1);
