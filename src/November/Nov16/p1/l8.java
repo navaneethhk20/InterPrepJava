@@ -23,7 +23,5 @@ public class l8 {
             permutation(remainning, result + ch);
         }
 
-
-
     }
 }
