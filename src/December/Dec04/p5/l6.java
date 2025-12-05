@@ -11,6 +11,8 @@ public class l6 {
                     System.out.print("*");
                 }
             System.out.println(" ");
+
+
         }
     }
 }
