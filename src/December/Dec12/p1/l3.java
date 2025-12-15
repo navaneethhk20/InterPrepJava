@@ -1,15 +1,13 @@
 package December.Dec12.p1;
-import org.openqa.testng.annotations.Test;
+
 public class l3 {
 
-    public static int add ( int a , int b){
-        return a +b;
+    public static void main(String[] args){
+        String input="Hosuru";
+        String rev="";
+        for(int i=input.length()-1;i>=0;i--){
+            rev=rev+input.charAt(i);
+        }
+        System.out.println(rev);
     }
-    @Test(group "sanity")
-    public static void main(String[] args) {
-        int a=10; int b=5;
-        System.out.println(add(a,b));
-       Assert.equals(a+b,15);
-    }
-
 }
