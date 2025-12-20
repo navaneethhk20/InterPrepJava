@@ -16,5 +16,6 @@ public class l5 {
             System.out.println(entry.getKey()+" occurs "+ entry.getValue());
 
         }
+
     }
 }
