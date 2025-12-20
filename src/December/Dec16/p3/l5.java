@@ -14,7 +14,8 @@ public class l5 {
 
         for(Map.Entry<String,Integer> entry: hashmap.entrySet()){
             System.out.println(entry.getKey()+" occurs "+ entry.getValue());
-            
+
+
         }
     }
 }
