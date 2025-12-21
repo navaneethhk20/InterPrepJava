@@ -23,5 +23,6 @@ public class l5 {
             }
         }
         System.out.println(ch);
+
     }
 }
