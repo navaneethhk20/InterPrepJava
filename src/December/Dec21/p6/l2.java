@@ -15,6 +15,7 @@ public class l2 {
         for(int num1:b){
             if(list.contains(num1)) {
                 System.out.println(num1);
+
             }
         }
 
