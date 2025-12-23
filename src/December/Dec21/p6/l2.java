@@ -19,6 +19,5 @@ public class l2 {
             }
         }
         System.out.println();
-
     }
 }
