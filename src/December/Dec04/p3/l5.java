@@ -17,7 +17,9 @@ public class l5 {
                 list.add(ch);
             }
         }
+        int lastelement= list.size();
         System.out.println(list);
         System.out.println(list.get(0));
+        System.out.println(list.get(lastelement-1));
     }
 }
