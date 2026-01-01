@@ -19,5 +19,6 @@ public class l10 {
           //break;
         }
         System.out.println(list);
+
     }
 }
