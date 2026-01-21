@@ -1,0 +1,15 @@
+package Year2025.October.oct29.p1;
+
+import java.util.Arrays;
+
+public class l7 {
+    public static void main(String[] args) {
+        int[] arr={23,45,6,87,98,7,6,45,324,65,7,8,6,534,23};
+        for(int i=0;i<=arr.length-1;i=i+3){
+            int temp=arr[i];
+            arr[i]=arr[i+2];
+            arr[i+2]=temp;
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+}

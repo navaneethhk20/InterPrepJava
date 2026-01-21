@@ -1,0 +1,15 @@
+package Year2025.November.Nov06.p2;
+
+public class l8 {
+    public static void main(String[] args) {
+        int[] arr={423,54,75,68,675,43,234,1231,2,33,12,65,432,3,65,65,787,6};
+        int target=1234;
+        for(int i=0;i<=arr.length-1;i++){
+            for(int j=i+1;j<=arr.length-1;j++){
+                if(arr[i]+arr[j]==target){
+                    System.out.println(arr[i]+" is present at "+i+" and "+j);
+                }
+            }
+        }
+    }
+}
