@@ -12,6 +12,7 @@ public class l9 {
         }
         sb.append(" ").append(lastword);
 
+
         System.out.println(sb.toString());
     }
 }
